@@ -1,0 +1,22 @@
+{
+  "name": "madden-fantasy",
+  "version": "1.0.0",
+  "description": "Attempt at Fantasy Football API for Madden CFM Leagues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akilinskis/madden-fantasy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akilinskis/madden-fantasy/issues"
+  },
+  "homepage": "https://github.com/akilinskis/madden-fantasy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
