@@ -11,22 +11,23 @@ router.post('/ps4/:leagueId/leagueteams', function(req, res) {
   console.log('League Teams');
   console.log('League Id: ', req.params.leagueId);
   console.log(req.body);
-  setTimeout(() => {
-    res.status(200).send();
-  }, 300000);
+  res.status(200).send();
 });
 
 router.post('/ps4/:leagueId/standings', function(req, res) {
   console.log('Standings');
   console.log('League Id: ', req.params.leagueId);
   console.log(req.body);
-  setTimeout(() => {
-    res.status(200).send();
-  }, 300000);
+  res.status(200).send();
 });
 
 router.post('/ps4/:leagueId', function(req, res) {
-  console.log('Root URL HIT!')
+  console.log('Root POST URL HIT!')
+  res.status(200).send();
+});
+
+router.get('/ps4/:leagueId', function(req, res) {
+  console.log('Root GET URL HIT!')
   res.status(200).send();
 });
 
