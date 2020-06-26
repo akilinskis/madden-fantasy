@@ -25,4 +25,9 @@ router.post('/ps4/:leagueId/standings', function(req, res) {
   }, 300000);
 });
 
+router.post('/ps4/:leagueId', function(req, res) {
+  console.log('Root URL HIT!')
+  res.status(200).send();
+});
+
 module.exports = router;
